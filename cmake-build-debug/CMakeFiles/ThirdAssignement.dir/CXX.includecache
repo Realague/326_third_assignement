@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/realague/delivery/CSULB/ThirdAssignement/Child.h
+string
+-
+iostream
+-
+
+/home/realague/delivery/CSULB/ThirdAssignement/Parent.h
+string
+-
+iostream
+-
+unistd.h
+-
+algorithm
+-
+wait.h
+-
+Child.h
+/home/realague/delivery/CSULB/ThirdAssignement/Child.h
+
+/home/realague/delivery/CSULB/ThirdAssignement/main.cpp
+Parent.h
+/home/realague/delivery/CSULB/ThirdAssignement/Parent.h
+
